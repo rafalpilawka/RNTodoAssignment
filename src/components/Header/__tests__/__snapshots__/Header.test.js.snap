@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match to snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": Object {
+          "semantic": Array [
+            "systemBlue",
+          ],
+        },
+        "borderBottomWidth": 1,
+        "height": 100,
+        "justifyContent": "space-between",
+        "marginBottom": 30,
+        "paddingHorizontal": 40,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontFamily": "Damascus",
+            "fontSize": 40,
+            "fontWeight": "bold",
+          },
+          Object {
+            "paddingBottom": 12,
+          },
+        ]
+      }
+    >
+      &lt;
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontFamily": "Damascus",
+        "fontSize": 40,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    TESTING LIST ID
+  </Text>
+  <View />
+</View>
+`;

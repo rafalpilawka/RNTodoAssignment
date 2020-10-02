@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty Component should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "height": "100%",
+      "justifyContent": "center",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": Object {
+          "semantic": Array [
+            "systemBlue",
+          ],
+        },
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    OH NO! EMPTY LIST
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": Object {
+          "semantic": Array [
+            "systemBlue",
+          ],
+        },
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    DONT HESITATE TO ADD
+SOME LISTS
+  </Text>
+</View>
+`;
